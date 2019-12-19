@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TranslationXYRepro.MainPage">
+
+	<StackLayout>
+		<Button Text="Set TranslationX and TranslationY to 0" Clicked="Button_Clicked" />
+		<Button Text="Set TranslationX and TranslationY to a random number between 10 and 100" Clicked="Button2_Clicked" />
+		<BoxView x:Name="translatedBox" BackgroundColor="Red" HeightRequest="50" WidthRequest="50" Margin="0,10,0,0" VerticalOptions="Start" HorizontalOptions="Start" />
+	</StackLayout>
+
+</ContentPage>
